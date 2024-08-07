@@ -1,0 +1,100 @@
+*{
+margin: 0;
+padding: 0;
+text-transform: capitalize;
+}
+body{
+    /* background-image: linear-gradient(to bottom right ,pink ,red,greenyellow); */
+    height: 100vh;
+}
+.main{
+    height: 500px;
+    width: 400px;
+    margin-left: 550px;
+    margin-top: 60px;
+    border-radius: 5px;
+    /* background-image: linear-gradient(to bottom left,grey,aliceblue ,lightblue); */
+    box-shadow: 2px 2px 59000px black;
+ }
+ h1{
+    color: rgb(153, 97, 153);
+    text-align: center;
+    margin: 30px;
+ }
+ label{
+    color:  rgb(153, 97, 153);
+    font-size: 30px;
+ }
+ input{
+    display: flex;
+    font-size: 20px;
+    height: 50px;
+    width :90%;
+    padding:5px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color:black;
+    margin-left: 10px;
+    align-items: center;   
+    border: 3px solid black;
+}
+ 
+input:hover{
+    border-color: rgb(153, 97, 153);
+}
+.chk
+{
+    margin-top: -2px;
+    display: flex;
+    height: 30px;
+    
+}
+.chk input[type=checkbox]{
+    height:30px;
+    bottom: 20px;
+    width:20px;
+}
+.chk label{
+    font-size: 16px;
+    color: grey;
+    margin-top: 12px;
+    
+}
+.chk label#frgtpass{
+    margin-left:150px;
+    color: black;
+}
+button{
+    width: 335px;
+    height: 40px;
+    margin-top:30px;
+    margin-left: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color:rgb(153, 97, 153) ;
+}
+button:hover{
+    transform: 2s;
+    background-color: rgb(253 87, 183) ;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+    text-transform: lowercase;
+}
+.fa-twitter{
+    margin-top: 10px;
+    margin-left: 40%;
+    font-size: 30px;
+    color: rgb(67, 131, 153);
+    
+}
+.fa-facebook{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: blue;
+}
